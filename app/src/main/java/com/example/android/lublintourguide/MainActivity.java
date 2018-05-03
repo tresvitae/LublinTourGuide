@@ -1,5 +1,6 @@
 package com.example.android.lublintourguide;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
@@ -11,6 +12,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -64,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 //        parks.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent parksIntent = new Intent(MainActivity.this, ParksActivity.class);
+//                Intent parksIntent = new Intent(MainActivity.this, ParksFragment.class);
 //                startActivity(parksIntent);
 //            }
 //        });
@@ -73,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 //        hotels.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent hotelssIntent = new Intent(MainActivity.this, HotelsActivity.class);
+//                Intent hotelssIntent = new Intent(MainActivity.this, HotelsFragment.class);
 //                startActivity(hotelssIntent);
 //            }
 //        });
@@ -82,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 //        monuments.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent monumentsIntent = new Intent(MainActivity.this, MonumentsActivity.class);
+//                Intent monumentsIntent = new Intent(MainActivity.this, MonumentsFragment.class);
 //                startActivity(monumentsIntent);
 //            }
 //        });
@@ -91,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 //        restaurants.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+//                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsFragment.class);
 //                startActivity(restaurantsIntent);
 //            }
 //        });
