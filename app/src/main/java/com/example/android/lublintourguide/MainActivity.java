@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 //        parks.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent parksIntent = new Intent(MainActivity.this, ParksActivity.class);
+//                Intent parksIntent = new Intent(MainActivity.this, ParksFragment.class);
 //                startActivity(parksIntent);
 //            }
 //        });
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 //        hotels.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent hotelssIntent = new Intent(MainActivity.this, HotelsActivity.class);
+//                Intent hotelssIntent = new Intent(MainActivity.this, HotelsFragment.class);
 //                startActivity(hotelssIntent);
 //            }
 //        });
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 //        monuments.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent monumentsIntent = new Intent(MainActivity.this, MonumentsActivity.class);
+//                Intent monumentsIntent = new Intent(MainActivity.this, MonumentsFragment.class);
 //                startActivity(monumentsIntent);
 //            }
 //        });
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 //        restaurants.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+//                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsFragment.class);
 //                startActivity(restaurantsIntent);
 //            }
 //        });
