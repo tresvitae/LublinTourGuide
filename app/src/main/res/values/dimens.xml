@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="header_title">28sp</dimen>
+</resources>

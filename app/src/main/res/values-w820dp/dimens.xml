@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="header_title">20sp</dimen>
+</resources>

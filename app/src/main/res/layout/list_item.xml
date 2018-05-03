@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_view"
+        style="@style/ListItemStyle"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/location_name"
+        style="@style/ListItemStyle"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/header_title" />
+
+    <TextView
+        android:id="@+id/location_description"
+        style="@style/ListItemStyle" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/monuments"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/category_monuments" />
+        <item
+            android:id="@+id/parks"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="@string/category_parks" />
+        <item
+            android:id="@+id/restaurants"
+            android:icon="@drawable/ic_local_drink_black_24dp"
+            android:title="@string/category_restaurants" />
+        <item
+            android:id="@+id/hotels"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="@string/category_hotels" />
+    </group>
+</menu>
