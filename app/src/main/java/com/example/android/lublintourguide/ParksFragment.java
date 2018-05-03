@@ -11,11 +11,6 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link ParksFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link ParksFragment#newInstance} factory method to
- * create an instance of this fragment.
  */
 public class ParksFragment extends Fragment {
 
@@ -30,16 +25,10 @@ public class ParksFragment extends Fragment {
 
         // Create a list of locations
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Ogród Saski", "Zdecydowanie najbardziej " +
-                "reprezentacyjnym parkiem Lublina jest Ogród Saski. Nie sposób nie doceniać wartości tego " +
-                "obiektu dla naszego miasta i to nie tylko ze względu na walory rekreacyjne, ale przede wszystkim " +
-                "na historyczne i przyrodnicze.", R.drawable.ogrod_saski));
-        locations.add(new Location("Park Bronowice", "Pomysłodawcą powstania ogrodu " +
-                "miejskiego pomiędzy ulicami Fabryczną i Łęczyńską był nie kto inny jak Feliks Bieczyński – " +
-                "twórca Ogrodu Saskiego. Zamysłem Bieczyńskiego była jak najmniejsza ingerencja w istniejącą " +
-                "zieleń. Zaproponował wykorzystanie prawie sześciu hektarów zadrzewień znajdujących się w " +
-                "przybrzeżnym pasie rzeki Czechówki. Miasto Lublin pieczę nad parkiem objęło w 1875 roku.",
-                R.drawable.park_bronowicki));
+        locations.add(new Location(getContext().getString(R.string.ogrod_saski),
+                getContext().getString(R.string.ogrod_saski_description), R.drawable.ogrod_saski));
+        locations.add(new Location(getContext().getString(R.string.park_bronowice),
+                        getContext().getString(R.string.park_bronowice_description), R.drawable.park_bronowicki));
 
         /**
          * Create an {@link LocationAdapter}, whose data source is a list of {@link Location}s. The

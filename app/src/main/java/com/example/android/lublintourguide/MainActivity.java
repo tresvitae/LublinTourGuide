@@ -62,43 +62,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-
-//        TextView parks = (TextView) findViewById(R.id.parks);
-//        parks.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent parksIntent = new Intent(MainActivity.this, ParksFragment.class);
-//                startActivity(parksIntent);
-//            }
-//        });
-//
-//        TextView hotels = (TextView) findViewById(R.id.hotels);
-//        hotels.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent hotelssIntent = new Intent(MainActivity.this, HotelsFragment.class);
-//                startActivity(hotelssIntent);
-//            }
-//        });
-//
-//        TextView monuments = (TextView) findViewById(R.id.monuments);
-//        monuments.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent monumentsIntent = new Intent(MainActivity.this, MonumentsFragment.class);
-//                startActivity(monumentsIntent);
-//            }
-//        });
-//
-//        TextView restaurants = (TextView) findViewById(R.id.restaurants);
-//        restaurants.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsFragment.class);
-//                startActivity(restaurantsIntent);
-//            }
-//        });
-
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
 
